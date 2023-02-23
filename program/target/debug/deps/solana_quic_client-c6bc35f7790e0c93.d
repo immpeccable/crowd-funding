@@ -1,0 +1,8 @@
+/Users/tunahandundar/Desktop/crowd-funding/program/target/debug/deps/solana_quic_client-c6bc35f7790e0c93.rmeta: /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-quic-client-1.15.2/src/lib.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-quic-client-1.15.2/src/nonblocking/mod.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-quic-client-1.15.2/src/nonblocking/quic_client.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-quic-client-1.15.2/src/quic_client.rs
+
+/Users/tunahandundar/Desktop/crowd-funding/program/target/debug/deps/solana_quic_client-c6bc35f7790e0c93.d: /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-quic-client-1.15.2/src/lib.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-quic-client-1.15.2/src/nonblocking/mod.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-quic-client-1.15.2/src/nonblocking/quic_client.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-quic-client-1.15.2/src/quic_client.rs
+
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-quic-client-1.15.2/src/lib.rs:
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-quic-client-1.15.2/src/nonblocking/mod.rs:
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-quic-client-1.15.2/src/nonblocking/quic_client.rs:
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-quic-client-1.15.2/src/quic_client.rs:

@@ -1,0 +1,11 @@
+/Users/tunahandundar/Desktop/crowd-funding/program/target/debug/deps/console-17c58239a1ca5a91.rmeta: /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/lib.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/common_term.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/kb.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/term.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/unix_term.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/utils.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/ansi.rs
+
+/Users/tunahandundar/Desktop/crowd-funding/program/target/debug/deps/console-17c58239a1ca5a91.d: /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/lib.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/common_term.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/kb.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/term.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/unix_term.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/utils.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/ansi.rs
+
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/lib.rs:
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/common_term.rs:
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/kb.rs:
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/term.rs:
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/unix_term.rs:
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/utils.rs:
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/console-0.15.5/src/ansi.rs:

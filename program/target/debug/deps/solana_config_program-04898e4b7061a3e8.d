@@ -1,0 +1,8 @@
+/Users/tunahandundar/Desktop/crowd-funding/program/target/debug/deps/solana_config_program-04898e4b7061a3e8.rmeta: /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-config-program-1.15.2/src/lib.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-config-program-1.15.2/src/config_instruction.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-config-program-1.15.2/src/config_processor.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-config-program-1.15.2/src/date_instruction.rs
+
+/Users/tunahandundar/Desktop/crowd-funding/program/target/debug/deps/solana_config_program-04898e4b7061a3e8.d: /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-config-program-1.15.2/src/lib.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-config-program-1.15.2/src/config_instruction.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-config-program-1.15.2/src/config_processor.rs /Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-config-program-1.15.2/src/date_instruction.rs
+
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-config-program-1.15.2/src/lib.rs:
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-config-program-1.15.2/src/config_instruction.rs:
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-config-program-1.15.2/src/config_processor.rs:
+/Users/tunahandundar/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-config-program-1.15.2/src/date_instruction.rs:
