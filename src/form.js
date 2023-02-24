@@ -9,7 +9,12 @@ import {
 } from "@solana/web3.js";
 import { deserialize, serialize } from "borsh";
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
-import { programId, CampaignDetails } from "./solana";
+import {
+  programId,
+  CampaignDetails,
+  setPayerAndBlockhashTransaction,
+  signAndSendTransaction,
+} from "./solana";
 import { Buffer } from "buffer";
 import { useNavigate } from "react-router-dom";
 
@@ -29,34 +34,6 @@ export const CreateCampaignForm = () => {
     await createCampaign(name, description, image);
     navigate("/");
   };
-
-  async function setPayerAndBlockhashTransaction(instructions) {
-    const transaction = new Transaction();
-    instructions.forEach((element) => {
-      transaction.add(element);
-    });
-    transaction.feePayer = publicKey;
-    let hash = await connection.getLatestBlockhash();
-    transaction.recentBlockhash = hash.blockhash;
-    return transaction;
-  }
-
-  async function signAndSendTransaction(transaction) {
-    try {
-      console.log("start signAndSendTransaction");
-
-      let signedTrans = await signTransaction(transaction);
-      console.log("signed transaction");
-      let signature = await connection.sendRawTransaction(
-        signedTrans.serialize()
-      );
-      console.log("end signAndSendTransaction");
-      return signature;
-    } catch (err) {
-      console.log("signAndSendTransaction error", err);
-      throw err;
-    }
-  }
 
   async function createCampaign(name, description, image_link) {
     if (!connected) {
@@ -101,11 +78,16 @@ export const CreateCampaignForm = () => {
       data: data_to_send,
     });
 
-    const trans = await setPayerAndBlockhashTransaction([
-      createProgramAccount,
-      instructionTOOurProgram,
-    ]);
-    const signature = await signAndSendTransaction(trans);
+    const trans = await setPayerAndBlockhashTransaction(
+      [createProgramAccount, instructionTOOurProgram],
+      publicKey,
+      connection
+    );
+    const signature = await signAndSendTransaction(
+      trans,
+      signTransaction,
+      connection
+    );
     const result = await connection.confirmTransaction(signature);
     console.log("end sendMessage", result);
   }

@@ -8,12 +8,6 @@ export const Header = () => {
       <div className="flex flex-row gap-2 ">
         <Link
           className="p-4 border-2 border-gray-400 rounded-sm text-xl font-semibold"
-          to="/fundings"
-        >
-          Fundings
-        </Link>
-        <Link
-          className="p-4 border-2 border-gray-400 rounded-sm text-xl font-semibold"
           to="/"
         >
           Campaigns
